@@ -1,7 +1,7 @@
 let base: number = Number(prompt("Ingrese la base"));
 let exponente: number = Number(prompt("Ingrese el exponente"));
 
-function resultadoPotencia(base: number, exponente: number): number {
+/*function resultadoPotencia(base: number, exponente: number): number {
   let resultado: number = 1;
   if (exponente === 0) {
     return 1;
@@ -18,3 +18,7 @@ if (exponente >= 0) {
 } else {
   console.log("ERROR: El exponente es menor a cero");
 }
+*/
+let potencia: number = (base ** exponente);
+console.log (potencia);
+// dos caminos ambos funcionan OK.
